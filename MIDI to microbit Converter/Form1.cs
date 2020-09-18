@@ -1,6 +1,6 @@
-﻿using System;
+using System;
 using System.IO;
-using ToneLibrary;
+using com.bluejay113.tonelibrary;
 using System.Threading;
 using System.Drawing;
 using System.Windows.Forms;
@@ -13,7 +13,7 @@ namespace MIDI_to_microbit_Converter
 {
     public partial class Form1 : Form
     {
-        internal ToneDictionary noteDict { get; set; } = new ToneDictionary();
+        internal toneDictionary noteDict { get; set; } = new toneDictionary();
         public int pageNum = -1;
         public Random rand = new Random();
         public string midiFilePath = "";
