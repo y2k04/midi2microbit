@@ -1,10 +1,8 @@
-﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace ToneLibrary
+namespace com.bluejay113.tonelibrary
 {
-    class ToneDictionary
+    class toneDictionary
     {
         public IDictionary<string, double> Note = new Dictionary<string, double>();
 
